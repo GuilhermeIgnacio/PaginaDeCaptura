@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fontes/Roboto-Regular.ttf);
+}
+header{
+    font-size: large;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    color: whitesmoke;
+    background-color: lightskyblue;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+#people{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71%;
+}
+.container{
+    position: relative;
+}
+.caixa{
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    width: 15%;
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.text{
+    font-weight: 700;
+}
+input{
+    margin-top: 5px;
+}
+select{
+    margin-top: 5px;
+}
+.footer{
+    background-color: rgb(50, 50, 50);
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.face{
+    display: inline-block;
+    border-radius: 10px;
+}
+.palestrante{
+    font-family: Roboto, sans-serif;
+    color: white;
+    text-align: center;
+}
+.corpo{
+    font-family: Roboto, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
